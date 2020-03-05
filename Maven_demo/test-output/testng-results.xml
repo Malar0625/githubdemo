@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17018" started-at="2020-03-03T15:11:41 IST" finished-at="2020-03-03T15:11:58 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17018" started-at="2020-03-03T15:11:41 IST" finished-at="2020-03-03T15:11:58 IST">
+      <class name="data_provide.linkedin_dataprovider">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:data_provide.linkedin_dataprovider@21507a04]" name="beforemethod" is-config="true" duration-ms="5420" started-at="2020-03-03T15:11:41 IST" finished-at="2020-03-03T15:11:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:data_provide.linkedin_dataprovider@21507a04]" name="setData" duration-ms="290" started-at="2020-03-03T15:11:46 IST" data-provider="getData" finished-at="2020-03-03T15:11:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malarvizhimari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfjhsdfh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:data_provide.linkedin_dataprovider@21507a04]" name="beforemethod" is-config="true" duration-ms="4636" started-at="2020-03-03T15:11:46 IST" finished-at="2020-03-03T15:11:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:data_provide.linkedin_dataprovider@21507a04]" name="setData" duration-ms="309" started-at="2020-03-03T15:11:51 IST" data-provider="getData" finished-at="2020-03-03T15:11:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ioiobk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:data_provide.linkedin_dataprovider@21507a04]" name="beforemethod" is-config="true" duration-ms="5829" started-at="2020-03-03T15:11:51 IST" finished-at="2020-03-03T15:11:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:data_provide.linkedin_dataprovider@21507a04]" name="setData" duration-ms="446" started-at="2020-03-03T15:11:57 IST" data-provider="getData" finished-at="2020-03-03T15:11:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vizhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+      </class> <!-- data_provide.linkedin_dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
