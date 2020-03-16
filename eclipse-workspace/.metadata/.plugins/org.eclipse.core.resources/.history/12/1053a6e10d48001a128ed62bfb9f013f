@@ -1,0 +1,17 @@
+package exercise_1;
+
+public class String_example_three
+{
+
+	public static void main(String[] args)
+	{
+		String s="i got job in cts";
+		int r=s.charAt(1);
+		if(r=='0')
+		{
+			
+		}
+
+	}
+
+}

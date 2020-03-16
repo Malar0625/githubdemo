@@ -1,0 +1,13 @@
+package overriding;
+
+public class testbank
+{
+
+	public static void main(String[] args) 
+	{
+		bank b;
+		b=new hdfc();
+		b=new axis();
+	}
+
+}

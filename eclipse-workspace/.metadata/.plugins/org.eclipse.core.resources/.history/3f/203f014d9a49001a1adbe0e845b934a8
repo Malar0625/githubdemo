@@ -1,0 +1,40 @@
+package collections;
+
+import java.util.ArrayList;
+
+import collections.ArrayList_demo;
+
+public class ArrayList_demo 
+{
+	ArrayList<String> std_al=new ArrayList<String>();
+	int rno;
+	String name;
+	int java, maths;
+	float avg;
+	public void create()
+	{
+		student s1=new student(77, "malar", 80, 90);
+		student s2=new student(77, "vizhi", 85, 95);
+		std_al.add(s1);
+		std al.add(s2);
+	}
+	public void display()
+	{
+		System.out.println("Roll number : " +rno);
+		System.out.println("Name : " +name);
+		System.out.println("Maths mark : " +maths);
+		System.out.println("Java mark : " +java);
+		System.out.println("Average : " +avg);
+		System.out.println("---------------------");
+	}
+
+	public static void main(String[] args)
+	{
+		ArrayList_demo std_al=new ArrayList_demo();
+		al.create();
+		System.out.println("array list created");
+		al.display();
+		System.out.println("array list displayed");
+	}
+
+}

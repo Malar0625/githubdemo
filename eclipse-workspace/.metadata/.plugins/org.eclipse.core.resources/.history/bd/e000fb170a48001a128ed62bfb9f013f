@@ -1,0 +1,14 @@
+package exercise_1;
+
+public class String_example_two
+{
+
+	public static void main(String[] args)
+	{
+		String s1="CTS", s2="CTS", s3="cTS";
+		
+		
+
+	}
+
+}

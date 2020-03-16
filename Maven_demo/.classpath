@@ -170,5 +170,6 @@
 	<classpathentry kind="lib" path="C:/selenium/Selenium_jar_files_batch1/download extent report jar/jar_files (6)/mongodb-driver-3.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/selenium/Selenium_jar_files_batch1/download extent report jar/jar_files (6)/mongodb-driver-core-3.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/selenium/Selenium_jar_files_batch1/download extent report jar/jar_files (6)/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT215/Desktop/db_jar/mysql-connector-java-5.1.18-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

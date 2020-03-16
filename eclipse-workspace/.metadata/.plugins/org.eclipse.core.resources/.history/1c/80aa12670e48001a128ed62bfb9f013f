@@ -1,0 +1,20 @@
+package exercise_1;
+
+public class String_example_three
+{
+
+	public static void main(String[] args)
+	{
+		String s="i got job in cts";
+		for(int s=0;s<=15;s++)
+		{
+			int r=s.charAt(s);
+			if(r=='\0')
+			{
+				System.out.println(r);
+			}
+		}
+
+	}
+
+}

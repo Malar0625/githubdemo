@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34697" started-at="2020-03-12T05:53:49Z" finished-at="2020-03-12T05:54:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34697" started-at="2020-03-12T05:53:49Z" finished-at="2020-03-12T05:54:24Z">
+      <class name="com.TestCases.TestCase_Seleniumhq">
+        <test-method status="PASS" signature="LaunchWeb()[pri:0, instance:com.TestCases.TestCase_Seleniumhq@724af044]" name="LaunchWeb" is-config="true" duration-ms="6458" started-at="2020-03-12T05:53:49Z" finished-at="2020-03-12T05:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWeb -->
+        <test-method status="PASS" signature="Assert_successful()[pri:0, instance:com.TestCases.TestCase_Seleniumhq@724af044]" name="Assert_successful" duration-ms="3020" started-at="2020-03-12T05:53:56Z" finished-at="2020-03-12T05:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert_successful -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.TestCases.TestCase_Seleniumhq@724af044]" name="Close" is-config="true" duration-ms="2885" started-at="2020-03-12T05:53:59Z" finished-at="2020-03-12T05:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="LaunchWeb()[pri:0, instance:com.TestCases.TestCase_Seleniumhq@724af044]" name="LaunchWeb" is-config="true" duration-ms="5034" started-at="2020-03-12T05:54:02Z" finished-at="2020-03-12T05:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWeb -->
+        <test-method status="PASS" signature="Seleniumhq()[pri:0, instance:com.TestCases.TestCase_Seleniumhq@724af044]" name="Seleniumhq" duration-ms="14812" started-at="2020-03-12T05:54:07Z" finished-at="2020-03-12T05:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Seleniumhq -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.TestCases.TestCase_Seleniumhq@724af044]" name="Close" is-config="true" duration-ms="2415" started-at="2020-03-12T05:54:21Z" finished-at="2020-03-12T05:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.TestCases.TestCase_Seleniumhq -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

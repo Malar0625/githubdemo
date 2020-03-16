@@ -1,0 +1,21 @@
+import java.io.IOException;
+
+public class IoException
+{
+	public static void main(String[] args)
+	{
+		//try
+		//{
+		
+		String name="malar";
+		System.out.println(name.length());
+		int x=Integer.parseInt(name);
+		//}
+		//catch(NullPointerException npe)
+		//{
+			System.out.println("declaration");
+		//}
+	}
+
+	}
+

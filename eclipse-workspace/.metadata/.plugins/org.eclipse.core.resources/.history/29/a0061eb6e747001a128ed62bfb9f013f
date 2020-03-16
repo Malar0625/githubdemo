@@ -1,0 +1,31 @@
+package exercise_1;
+
+import java.util.Scanner;
+
+public class add_even_number 
+{
+	static int i;
+	static int[] a= {91, 27,28,84, 37, 63, 44, 32};
+	//static int odd=0;
+	static int sum;
+	public static void main(String[] args)
+	{
+		//Scanner scanner=new Scanner(System.in);
+		for(i = 0; i <= 7; i++)
+		{
+			//System.out.print(" Enter any Number : ");
+			//nums=scanner.nextInt();
+			if(a[i] % 2!= 0)
+			{      
+				//i++;
+		        sum=sum=a[i];
+		          
+			}
+			
+		}
+
+		System.out.printf("sum is"+ sum );
+
+	}
+
+}

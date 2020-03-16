@@ -1,0 +1,19 @@
+package oops;
+
+public class basic_avg_student 
+{
+	int rno;
+	String name;
+	int java, maths;
+	float avg;
+	public void average()
+	{
+		avg=(java+maths)/2;
+	}
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

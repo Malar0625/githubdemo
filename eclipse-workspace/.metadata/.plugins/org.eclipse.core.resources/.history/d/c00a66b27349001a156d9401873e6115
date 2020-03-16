@@ -1,0 +1,6 @@
+package interface_;
+
+public class InterfaceRectangle implements drawable
+{
+	System.out.println("draw rectangle");
+}

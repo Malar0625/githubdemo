@@ -1,0 +1,30 @@
+package exercise_1;
+
+import java.util.Scanner;
+
+public class add_even_number 
+{
+	static int i;
+	int[] a= {91, 27,28,84, 37, 63, 44, 32};
+	static int even=0;
+	static int nums;
+	public static void main(String[] args)
+	{
+		//Scanner scanner=new Scanner(System.in);
+		for(i = 0; i <= 7; i++)
+		{
+			//System.out.print(" Enter any Number : ");
+			//nums=scanner.nextInt();
+			if(nums % 2!= 0)
+			{         
+		          even++;
+		          
+			}
+			
+		}
+
+		System.out.printf("count is"+ even );
+
+	}
+
+}

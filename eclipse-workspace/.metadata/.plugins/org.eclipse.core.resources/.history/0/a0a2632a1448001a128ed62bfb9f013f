@@ -1,0 +1,19 @@
+package exercise_1;
+
+public class String_example_four 
+{
+
+	public static void main(String[] args) 
+	{
+		String s="i got job in cts";
+		int p=s.indexOf(' ', 0);
+		for(int i=0;i<=15;i++)
+		{
+			String c=s.substring(p, 15);
+			System.out.println(p);
+		}
+		
+
+	}
+
+}

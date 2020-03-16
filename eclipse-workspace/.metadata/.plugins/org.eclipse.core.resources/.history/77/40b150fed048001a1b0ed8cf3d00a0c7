@@ -1,0 +1,22 @@
+package polimorphism;
+
+public class method_overloading
+{
+	int total(int x, int y)
+	{
+		return(x+y);
+	}
+	 float total(int x, int y, float z)
+	{
+		return(x+y+z);
+	}
+
+	public static void main(String[] args)
+	{
+		method_overloading s = new method_overloading(); 
+        System.out.println(s.total(10, 20)); 
+        System.out.println(s.total(10, 20, 30));
+
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.io.IOException;
+
+public class IoException
+{
+	public void display() throws IOException
+	{
+		
+	}
+
+
+}
+	
+

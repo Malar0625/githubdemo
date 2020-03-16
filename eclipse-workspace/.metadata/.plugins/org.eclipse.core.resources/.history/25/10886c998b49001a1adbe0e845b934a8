@@ -1,0 +1,23 @@
+
+public class arithmetice 
+{
+	public static void main(String[] args)
+	{
+	try
+	{
+	int[] arr= {1,2,3};
+	int a=7,b=0,c;
+	System.out.println("before");
+	System.out.println(arr[4]);
+	c=a/b;
+	System.out.println(c);	
+	System.out.println("after");
+	}
+	catch(Exception e)
+	{
+		System.out.println("in catch block");	
+	}
+	System.out.println("after catch");	
+	
+	}
+}

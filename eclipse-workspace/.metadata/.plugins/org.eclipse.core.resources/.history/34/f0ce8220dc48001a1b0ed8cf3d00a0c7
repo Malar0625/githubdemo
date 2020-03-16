@@ -1,0 +1,15 @@
+package overriding;
+
+public class testbank
+{
+
+	public static void main(String[] args) 
+	{
+		bank b;
+		b=new hdfc();
+		System.out.println(b.getroi());
+		b=new axis();
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package polimorphism;
+
+public class overriding_bank
+{
+	public float getroi()
+	{
+		return 10.0f;
+	}
+}

@@ -1,0 +1,22 @@
+package exercise_1;
+
+public class String_example_five
+{
+
+	public static void main(String[] args) 
+	{
+		int p1=0, p2=0;
+		String s="i got job in cts";
+		while()
+		{
+			p2=s.indexOf(' ',0);
+			if(p2==-1)
+			{
+				p2=s.length();
+				String s1=s.substring(p1,p2);
+				break;
+			}
+		}
+	}
+
+}

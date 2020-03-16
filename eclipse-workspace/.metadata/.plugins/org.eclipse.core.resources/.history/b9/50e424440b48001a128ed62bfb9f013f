@@ -1,0 +1,32 @@
+package exercise_1;
+
+public class String_example_two
+{
+
+	public static void main(String[] args)
+	{
+		String s1="CTS", s2="CTS", s3="cTS";
+		//int r=s1.compareTo(s2);
+		//System.out.println(r);
+		//int r2=s1.compareTo(s3);
+		//System.out.println(r2);
+		//int r=s1.compareToIgnoreCase(s3);
+		boolean r=s1.equals(s3);
+		System.out.println();
+		
+		/*
+		 if(r==0)
+
+		{
+			System.out.println("both are same");
+		}
+		else
+		{
+			System.out.println("not same");
+		}
+		
+		*/
+
+	}
+
+}

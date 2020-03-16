@@ -1,0 +1,25 @@
+package exercise_1;
+
+import java.util.Scanner;
+
+public class divisible_seven {
+
+	public static void main(String[] args)
+	{
+
+		int n;
+		System.out.println("Enter the value");
+		Scanner scanner=new Scanner(System.in);
+		n=scanner.nextInt();
+		if(n/7==0)
+		{
+			System.out.println("divisible by 7");
+		}
+		else
+		{
+			System.out.println("not divisible by 7");
+		}
+
+	}
+
+}

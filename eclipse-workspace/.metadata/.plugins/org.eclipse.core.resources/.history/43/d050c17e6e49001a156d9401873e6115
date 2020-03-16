@@ -1,0 +1,16 @@
+package abstractclass;
+
+public class test_bank 
+{
+
+	public static void main(String[] args) 
+	{
+		bank b,c;
+		b=new icici();
+		System.out.println("icici roi " +get_roi());
+		b=new hdfc();
+		System.out.println("hdfc roi " +get_roi());
+
+	}
+
+}

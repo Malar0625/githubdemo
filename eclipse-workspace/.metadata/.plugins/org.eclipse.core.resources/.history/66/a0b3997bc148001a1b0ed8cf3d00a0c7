@@ -1,0 +1,17 @@
+package oops;
+
+public class main_college {
+
+	public static void main(String[] args) 
+	{
+		college_mark obj=new college_mark();
+		obj.rno=77;
+		obj.name="Malar";
+		obj.java=85;
+		obj.maths=90;
+		obj.average();
+		obj.display();
+
+	}
+
+}

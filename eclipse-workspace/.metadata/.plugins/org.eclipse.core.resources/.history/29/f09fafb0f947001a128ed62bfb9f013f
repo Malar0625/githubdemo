@@ -1,0 +1,12 @@
+package exercise_1;
+
+public class pair_number_add 
+{
+
+	public static void main(String[] args) 
+	{
+		int[] n= {21,14,7,15,-2,15,22,9,6};
+
+	}
+
+}

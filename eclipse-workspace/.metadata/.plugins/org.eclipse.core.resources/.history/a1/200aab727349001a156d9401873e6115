@@ -1,0 +1,10 @@
+package interface_;
+
+public class Interfacemain 
+{
+	public static void main(String[] args)
+	{
+		Drawable d=new InterfaceRectangle();
+		d.draw();
+	}
+}

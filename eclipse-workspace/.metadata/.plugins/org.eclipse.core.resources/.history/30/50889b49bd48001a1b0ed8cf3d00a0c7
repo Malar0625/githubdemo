@@ -1,0 +1,23 @@
+package oops;
+
+public class college_mark 
+{
+	int rno;
+	String name;
+	int java, maths;
+	float avg;
+	public void average()
+	{
+		avg=(java+maths)/2;
+		
+	}
+	public void display()
+	{
+		System.out.println("roll number" +rno);
+		System.out.println("name" +name);
+		System.out.println("maths mark" +maths);
+		System.out.println("java mark" +java);
+		System.out.println("average" +avg);
+	}
+
+}

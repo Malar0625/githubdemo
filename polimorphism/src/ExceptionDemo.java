@@ -1,0 +1,23 @@
+
+public class ExceptionDemo 
+{
+
+	public static void main(String[] args)
+	{
+		
+		try
+		{
+		int a=10, b=6, c;
+		System.out.println("before");
+		c=a/(b);
+		System.out.println(c);
+		System.out.println("after");
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("in catch block");
+		}
+		System.out.println("after block");
+	}
+
+}

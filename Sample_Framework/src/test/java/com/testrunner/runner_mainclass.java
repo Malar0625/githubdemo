@@ -12,10 +12,10 @@ public class runner_mainclass
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features = "src/main/resources/features/testcase.feature",
+		features = "src/main/resources/features/testscenario.feature",
 		plugin = {"pretty", "html:reports/cucumber-html-report"},
-		tags = {"@tc_01_login"},
-		glue = {"com.stepdefinition"},
+		tags = {"@tc_01_reg"},
+		glue = {"com.StepDefinition"},
 		monochrome = true
 )
 public class mainclass

@@ -1,0 +1,34 @@
+package exercise_1;
+
+public class String_example_four 
+{
+
+	public static void main(String[] args) 
+	{
+		String s="i got job in cts";
+		int p=s.indexOf(' ', 0);		
+		String p1=p;
+		String p2=p1+1;
+		
+		
+		//int p1=s.indexOf(' ', 0);
+		
+		//for(int i=0;i<=p;i++)
+	
+			/*{
+			String r=s.substring(0,1);
+			System.out.println(r);
+			String r1=s.substring(2,5);
+			System.out.println(r1);
+			String r2=s.substring(6,9);
+			System.out.println(r2);
+			String r3=s.substring(10,12);
+			System.out.println(r3);
+			String r4=s.substring(13,16);
+			System.out.println(r4);
+		}*/
+		
+
+	}
+
+}
