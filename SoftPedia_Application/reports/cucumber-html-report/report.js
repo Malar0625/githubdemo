@@ -40,14 +40,14 @@ formatter.match({
   "location": "Definition_Register.launch_and_registration()"
 });
 formatter.result({
-  "duration": 56175584378,
+  "duration": 170700875103,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_Register.close_the_browser()"
 });
 formatter.result({
-  "duration": 5359514294,
+  "duration": 3375457671,
   "status": "passed"
 });
 formatter.scenario({
@@ -83,21 +83,21 @@ formatter.match({
   "location": "Definition_Login.launch_application()"
 });
 formatter.result({
-  "duration": 13384602110,
+  "duration": 13500398601,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_Login.click_the_user_icon_and_enter_username_password()"
 });
 formatter.result({
-  "duration": 2437311557,
+  "duration": 1577511512,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_Login.click_login_button()"
 });
 formatter.result({
-  "duration": 5993600426,
+  "duration": 5517709516,
   "status": "passed"
 });
 formatter.scenario({
@@ -143,35 +143,35 @@ formatter.match({
   "location": "Definition_Search.launch_the_softpedia_application()"
 });
 formatter.result({
-  "duration": 7452332010,
+  "duration": 6614587529,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_Search.enter_the_word_for_search()"
 });
 formatter.result({
-  "duration": 151758347,
+  "duration": 105189861,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_Search.click_go_button()"
 });
 formatter.result({
-  "duration": 12825245815,
+  "duration": 5095396626,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_Search.download_the_application()"
 });
 formatter.result({
-  "duration": 29553315877,
+  "duration": 16657881503,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_Search.Check_file_is_exist_or_not()"
 });
 formatter.result({
-  "duration": 3230049781,
+  "duration": 3424699570,
   "status": "passed"
 });
 formatter.scenario({
@@ -217,35 +217,35 @@ formatter.match({
   "location": "Definition_ContactUs.launch_the_browser()"
 });
 formatter.result({
-  "duration": 14670971481,
+  "duration": 13156056506,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_ContactUs.click_i_named_icon_and_contact_us()"
 });
 formatter.result({
-  "duration": 4787597403,
+  "duration": 3099906779,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_ContactUs.click_radio_button_from_the_list()"
 });
 formatter.result({
-  "duration": 1945721569,
+  "duration": 211737849,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_ContactUs.enter_a_message_and_mail_id()"
 });
 formatter.result({
-  "duration": 396513040,
+  "duration": 609074615,
   "status": "passed"
 });
 formatter.match({
   "location": "Definition_ContactUs.click_send_button()"
 });
 formatter.result({
-  "duration": 6637641283,
+  "duration": 6616968898,
   "status": "passed"
 });
 });

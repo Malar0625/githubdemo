@@ -18,11 +18,13 @@ public class Definition_Register
 		pr.registeration();
 	}
 	@And("^close the browser$")
-	public void close_the_browser() throws IOException, InterruptedException 
+	public void close_the_browser() throws Exception 
 	{
 		Thread.sleep(3000);
+		pr.takeSnapShot("C:\\Users\\BLTuser.BLT215\\git\\githubdemo\\SoftPedia_Application\\src\\test\\resources\\Screenshot\\register.png");
 		pr.quit();
 	}
+	
 
 	
 }

@@ -21,7 +21,7 @@ public class Page_SubmitApplication {
 	
 	public void LaunchBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\soft\\SoftPedia_Application_with_excel\\src\\test\\resources\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\BLTuser.BLT215\\\\Desktop\\\\SoftPedia_Application\\\\src\\\\test\\\\resources\\\\Driver\\\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);

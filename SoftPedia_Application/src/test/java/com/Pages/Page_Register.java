@@ -4,7 +4,11 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,6 +45,13 @@ public class Page_Register
 			driver.findElement(By.id("regpass2")).sendKeys(ed.excel_repassword(i));
 			driver.findElement(By.xpath("//*[@id=\"regbtn\"]")).click();
 		}
+	}
+	public  void takeSnapShot(String path) throws Exception
+	{
+	        TakesScreenshot scrShot =((TakesScreenshot)driver);
+	        File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+	        File DestFile=new File(path);
+	        FileUtils.copyFile(SrcFile, DestFile);
 	}
 	public void quit() 
 	{
